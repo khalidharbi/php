@@ -16,7 +16,7 @@ $nothin = NULL;
     <title><?php echo $title . " - Home Page" ?></title>
 </head>
 <body>
-      <?php echo "<h1>Welcome to my $title </h1>";
+      <?php echo "<h1>Welcome to $title </h1>";
       echo $num;
       echo "<br>";
       echo $float;
