@@ -1,8 +1,11 @@
 <?php 
 //Variables 
-$title = "khalid harbi "
-
-
+$title = "khalid harbi ";
+$num = 40;
+$float = 3.14;
+$bool = true;
+$bool2 = false;
+$nothin = NULL;
 
 ?>
 <!DOCTYPE html>
@@ -13,6 +16,13 @@ $title = "khalid harbi "
     <title><?php echo $title . " - Home Page" ?></title>
 </head>
 <body>
-      <?php echo "<h1>Welcome to my $title </h1>" ?>
+      <?php echo "<h1>Welcome to my $title </h1>";
+      echo $num;
+      echo "<br>";
+      echo $float;
+     // echo $bool;
+      echo $bool2;
+      echo $nothin;
+      ?>
 </body>
 </html>
