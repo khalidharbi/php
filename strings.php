@@ -8,7 +8,7 @@ echo "<br>";
 //$string[0] = "w";
 //echo $string
 //echo str_replace("harbi", "sobhi", $string);
-echo substr($string, 6)
+//echo substr($string, 6);
 
 
 ?>
