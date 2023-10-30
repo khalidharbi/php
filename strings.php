@@ -2,5 +2,7 @@
 $string = "khalid harbi";
 echo $string;
 echo "<br>";
-echo strtolower($string);
+// echo strtolower($string);
+echo strtoupper($string);
+
 ?>
