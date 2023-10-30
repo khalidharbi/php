@@ -1,7 +1,7 @@
 <?php 
 //Variables 
 $title = "khalid harbi ";
-$num = 40;
+$num = 143;
 $float = 3.14;
 $bool = true;
 $bool2 = false;
