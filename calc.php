@@ -4,20 +4,25 @@
  $number2 = $_GET["number2"];
  $op = $_GET["op"];
 
- if($op === "+"){
-    $result = $_GET["number1"] + $_GET["number2"];
- }else if($op === "-"){
-    $result = $_GET["number1"] - $_GET["number2"];
- }else if($op === "*"){
-    $result = $_GET["number1"] * $_GET["number2"];
- }else if($op === "/"){
-    $result = $_GET["number1"] / $_GET["number2"];
+ 
+ if(empty($number1)){
+    $result = "الرقم الأول فارغ";
+ }elseif(empty($number2)){
+    $result = "الرقم الثاني فارغ";
+ }elseif(empty($op)){
+    $result = "يرجى اخنيار عملية";
  }else{
-    echo $result = "enter an opertion";
+    if($op === "+"){
+        $result = $_GET["number1"] + $_GET["number2"];
+     }elseif($op === "-"){
+        $result = $_GET["number1"] - $_GET["number2"];
+     }elseif($op === "*"){
+        $result = $_GET["number1"] * $_GET["number2"];
+     }elseif($op === "/"){
+        $result = $_GET["number1"] / $_GET["number2"];
+     }
  }
 
-
- //$result = $_GET["number1"] + $_GET["number2"];
 
 ?>
 
