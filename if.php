@@ -1,8 +1,8 @@
 <?php 
     $username = "khalid";
-    $email = "";
+    $email = "kh@gmail.com";
 
-    if($username === "khalid"){
+    if($username !== "khalid" && $email === "kh@gmail.com"){
         echo "welocme Admin";
     }
 

@@ -1,7 +1,23 @@
 <?php 
  // calculater
+ $number1 = $_GET["number1"];
+ $number2 = $_GET["number2"];
+ $op = $_GET["op"];
 
- $result = $_GET["number1"] + $_GET["number2"];
+ if($op === "+"){
+    $result = $_GET["number1"] + $_GET["number2"];
+ }else if($op === "-"){
+    $result = $_GET["number1"] - $_GET["number2"];
+ }else if($op === "*"){
+    $result = $_GET["number1"] * $_GET["number2"];
+ }else if($op === "/"){
+    $result = $_GET["number1"] / $_GET["number2"];
+ }else{
+    echo $result = "enter an opertion";
+ }
+
+
+ //$result = $_GET["number1"] + $_GET["number2"];
 
 ?>
 
@@ -23,6 +39,11 @@
     <div>
         <label>Enter Number2:</label>
         <input type="number" name="number2" class="form-control">
+    </div>
+    <br>
+    <div>
+        <label>opertion:</label>
+        <input type="text" name="op" class="form-control">
     </div>
 
     <div class="alert alert-success">
