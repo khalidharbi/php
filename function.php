@@ -1,6 +1,12 @@
 <?php 
 
 
+    function add($x, $y){
+        return $x + $y;
+    }
+
+    echo add(21, 5);
+
     function hello($x){
         $user = $x;
 
@@ -12,7 +18,7 @@
     }
 
 
-    hello("khalid");
+  //  hello("khalid");
 
 
 ?>
