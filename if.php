@@ -1,4 +1,24 @@
 <?php 
+    $username = "khalid";
+    $email = "";
+
+    if($username === "khalid"){
+        echo "welocme Admin";
+    }
+
+?>
+
+
+
+
+
+
+
+
+
+
+<?php 
+/*
 $number1 = 20;
 $number2 = 5;
 
@@ -14,5 +34,5 @@ if($number1 > $number2){
 }else{
     echo "الرقمين متساويين";
 }
-
+*/
 ?>
