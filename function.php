@@ -1,13 +1,18 @@
 <?php 
 
 
-    function hello(){
-        $user = "khalid";
-        echo "Hello " . $user;
+    function hello($x){
+        $user = $x;
+
+        if($user === "khalid"){
+            echo "Hello " . $user;
+        }else{
+            echo "Bey " . $user;
+        }
     }
 
 
-    hello();
+    hello("khalid");
 
 
 ?>
