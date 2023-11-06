@@ -12,12 +12,18 @@ $xname = $_GET["xname"];
 
 //Associative Array
 
-$family = [
+/*$family = [
     "hacker" => "khalid", 
     "designer" => "majed",
      "gamer" =>"anas"
-        ];
-        
-echo $family[$xname]
+        ]; */
+
+        $score = [
+            "khalid" => "99", 
+            "majed" => "50",
+             "anas" =>"75"
+                ];
+
+echo $score[$xname]
 
 ?>
