@@ -19,11 +19,13 @@ $xname = $_GET["xname"];
         ]; */
 
         $score = [
-            "khalid" => "99", 
-            "majed" => "50",
-             "anas" =>"75"
+            "khalid" => ["96", "A+"], 
+            "majed" => ["50", "F"],
+             "anas" =>["75", "C+"]
                 ];
 
-echo $score[$xname]
+echo "Score: " . $score[$xname][0];
+echo "<br>";
+echo "Grade: " . $score[$xname][1];
 
 ?>
